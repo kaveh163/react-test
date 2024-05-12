@@ -9,7 +9,7 @@ function App() {
     {id:2, name:ali},
     {id:3, name:reza},
   3
-  
+  ]
   return (
     <div className="App">
       <header className="App-header">
