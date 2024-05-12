@@ -1,9 +1,9 @@
 import React from "react";
-export default function Postlist (props){
+export default function Postlist ({id , name }){
     return(
         <div>
             <h1>
-                {props.id} : {props.name}
+                {id} : {name}
             </h1>
 
         </div>
