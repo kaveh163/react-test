@@ -1,13 +1,9 @@
-<<<<<<< HEAD
+import logo from './logo.svg';
 import './App.css';
-=======
-import react from 'react'
->>>>>>> d59ec45 (add hello world)
 
 function App() {
   
   return (
-<<<<<<< HEAD
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -23,10 +19,6 @@ function App() {
           Learn React
         </a>
       </header>
-=======
-    <div>
-    <h1> hello word</h1>
->>>>>>> d59ec45 (add hello world)
     </div>
   );
 }
