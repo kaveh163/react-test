@@ -1,26 +1,17 @@
 
 import React from 'react';
 import './App.css';
+import Postlist from './components/Postlist';
 
 function App() {
   
   return (
     <div className="App">
       <header className="App-header">
-        
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Postlist id = "1" name = "kaveh"/>
+      <Postlist id = "2" name = "ali"/>
+      <Postlist id = "3" name = "reza"/>
     </div>
   );
 }
