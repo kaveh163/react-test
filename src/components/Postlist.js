@@ -1,10 +1,12 @@
 import React from "react";
-export default function Postlist ({id , name }){
+export default function Postlist ({users }){
     return(
         <div>
-            <h1>
-                {id} : {name}
-            </h1>
+            <ul>
+                {users.map((user, index) => {
+                    return <li key={user.id}>{`${user.id}: ${user.name}`}</li> 
+                })}
+            </ul>
 
         </div>
     )

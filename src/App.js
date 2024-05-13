@@ -14,9 +14,8 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-      <Postlist {...user[0]} />
-      <Postlist {...user[1]} />
-      <Postlist {...user[2]} />
+      <Postlist users={user} />
+      
     </div>
   );
 }
